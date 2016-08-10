@@ -103,8 +103,7 @@
 		});
 
 	});
-//go on working. papa hain msg mt krna isi pe comment likhna . uload karna hai.
  
 </script>
-</body
-></html>
+</body>
+</html>
