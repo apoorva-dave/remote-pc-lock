@@ -4,17 +4,17 @@ import getURL
 import time
 import os
 
-# dir_path = str(os.path.dirname(os.path.realpath(__file__)))
-# dir_path = dir_path + "\\..\\batch-files"
+dir_path = str(os.path.dirname(os.path.realpath(__file__)))
+dir_path = dir_path + "\\..\\batch-files"
 
-# # Starting local php server
-# subprocess.Popen([dir_path+"/start-server.bat"], shell=True)
+# Starting local php server
+subprocess.Popen([dir_path+"/start-server.bat"], shell=True)
 
-# # Starting ngrok tunnel
-# subprocess.Popen([dir_path+"/start-ngrok.bat"], shell=True)
+# Starting ngrok tunnel
+subprocess.Popen([dir_path+"/start-ngrok.bat"], shell=True)
 
-# # Waiting for ngrok to assign URL
-# time.sleep(5)
+# Waiting for ngrok to assign URL
+time.sleep(5)
 
 # Get currently assigned URL
 lock_url = getURL.get_url()
